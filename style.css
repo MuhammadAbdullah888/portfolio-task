@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 0px;
+
+}
+
+.DevAbdullah {
+    color: #61706F;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.type:focus {
+    outline: #FD6F00;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.DevAbdullah:hover {
+    transform: scale(2.0);
+    animation: rotate 2s linear infinite;
+
+}
+
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-right-side,
+a {
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+
+
+
+#download-cv {
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+
+    color: aliceblue;
+    background-color: #FD6F00;
+    cursor: pointer;
+}
+
+body {
+
+    font-family: "Poppins", sans-serif;
+}
+
+.head {
+    margin-inline: 10vw;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6vw;
+    align-items: center;
+}
+
+#button-hireMe {
+    padding: 7px 22px;
+    border: none;
+    border-radius: 3px;
+    color: aliceblue;
+    background-color: orangered;
+    line-height: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.HiIam {
+    margin-bottom: 12px;
+}
+
+.FawaziSayed {
+    color: #FD6F00;
+    line-height: 0px;
+}
+
+.ui {
+    font-size: 60px;
+    width: 278px;
+    line-height: 120%;
+}
+
+.lorem {
+    width: 698px;
+
+    top: 417px;
+    left: 7px;
+    width: 698px;
+    size: 21px;
+    margin-top: 10px;
+
+
+}
+
+.fa {
+    cursor: pointer;
+}
+
+.imageone {
+    width: 20vw;
+}
+
+.parent {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    font-size:
+        20px;
+
+
+}
+
+.skill-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.group {
+    width: 27vw;
+
+
+}
+
+.ranger {
+    width: 51vw;
+    accent-color: #FD6F00;
+
+}
+
+.About-Me {
+    font-size: 50px;
+}
+
+#buten:hover {
+    transition: 0.5s ease-in-out;
+    background-color: #FD6F00;
+}
+
+.Service {
+
+    text-align: center;
+    font-size: 50px;
+
+}
+
+
+
+
+.sevice-box-one:hover {
+    box-shadow: 5px 5px 5px orangered;
+    transition: 0.4s ease;
+}
+
+.lorem-para {
+    text-align: center;
+}
+
+.sevice-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sevice-box-one {
+    background-color: #F8F8F8;
+    width: 250px;
+    ;
+    border-radius: 12px;
+}
+
+.Vector-one {
+    width: 36px;
+    padding: 9px;
+    height: 37px;
+}
+
+.Vector-two {
+    width: 36px;
+    padding: 9px;
+    height: 37px;
+}
+
+.data {
+    padding: 9px;
+}
+
+.font-size {
+    font-size: 26px;
+}
+
+.my-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.service-para {
+    text-align: center;
+}
+
+.service-button {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.butten {
+    background-color: #F8F8F8;
+    border: none;
+    border: 1px solid;
+    padding: 7px 11px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+
+
+.MyProjects {
+    font-size: 50px;
+
+}
+
+body.cover {
+    background-color: #61706F;
+    color: orange;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: #FD6F00;
+}
+
+.abdullah {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+
+
+}
+
+.fa:hover {
+    transform: scale(00.5s);
+    transition: 0.2s ease-in-out;
+}
+
+.cards-projecr-data {
+    background-color: white;
+    width: 25vw;
+
+    border-radius: 12px;
+}
+
+.mains-project {
+    width: 100%;
+    height: 10px;
+}
+
+.imgg {
+    width: 100%;
+    height: 302px;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+.Testimonials {
+    text-align: center;
+}
+
+
+
+
+#Testimonials {
+    font-size: 50px;
+}
+
+.test-box {
+    display: flex;
+    justify-content: center;
+    background-color: #F8F8F8;
+    width: 63vw;
+
+}
+
+.main-test {
+    display: flex;
+    justify-content: center;
+}
+
+.Ellipse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+span {
+    color: #FD6F00;
+}
+
+.imge-last {
+    width: 187px;
+    margin-left: 22px;
+}
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+}
+
+.citect {
+    text-align: center;
+}
+
+.contaact {
+    display: flex;
+    gap: 15px
+}
+
+#citect {
+    font-size: 50px;
+}
+
+.contactme-button {
+    padding: 5px 11px;
+    border-radius: 7px;
+    border: none;
+    background-color: #FD6F00;
+    color: #F8F8F8;
+    cursor: pointer;
+}
+
+.type {
+    padding: 3px;
+    border-radius: 7px;
+    border-color: black;
+    width: 27vw;
+}
+
+.last-section {
+    width: 100%;
+
+    background-color: whitesmoke;
+}
+
+.Davabdullah {
+    text-align: center;
+    color: #61706F;
+}
+
+.footer-cextion {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.socila-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.copy-right {
+
+    background-color: #545454;
+    width: 100%;
+
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.las-abdullah {
+    color: #FD6F00;
+
+}
+
+.text-white {
+    color: #F8F8F8;
+}
+
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links li {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    border-radius: 2px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        display: block;
+        border: none;
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        background-color: #ffff;
+    }
+
+    .nav-links {
+        display: none !important;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: white;
+        padding: 1em 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding-left: 20px;
+        padding-right: 20px;
+
+
+    }
+
+    .nav-links.active {
+        display: flex !important;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+.nav-links {
+    animation: calc(0.2);
+    transition: ease-in-out;
+}
+
+@media (max-width: 375px) {
+
+    .main {
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    .imageone {
+        width: 50vw;
+    }
+
+    .skill-section {
+        flex-direction: column;
+    }
+
+    .group {
+        display: none;
+    }
+
+    .ranger {
+        width: 100%;
+    }
+
+
+
+    .abdullah {
+        flex-wrap: wrap;
+    }
+
+    .lorem {
+        width: 100%;
+    }
+
+
+
+    .service-box {}
+
+    .Ellipse {
+        flex-direction: column;
+    }
+
+    .cards-projecr-data {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+.cards-projecr-data:hover {
+    box-shadow: 5px 5px 5px orangered;
+    transition: 0.4s ease;
+}
+
+#download-cv:hover {
+    transition: 0.6s ease-out;
+    box-shadow: #FD6F00 1px 10px 20px;
+}
+
+#contactme:hover {
+    transition: 0.6s ease-out;
+    box-shadow: #FD6F00 1px 10px 20px;
+}
+
+#button-hireMe:hover {
+    transition: 0.6s ease-out;
+    box-shadow: #FD6F00 1px 10px 20px;
+}
+
+
+
+
+.imageone:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+
+}
+
+.group:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+}
+
+a:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+    color: #FD6F00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sabhi cards par hover */
+.card,
+.cards-projecr-data {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover,
+.cards-projecr-data:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Sabhi buttons par hover */
+button,
+#download-cv,
+#button-hireMe,
+.butten,
+.contactme-button {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover,
+#download-cv:hover,
+#button-hireMe:hover,
+.butten:hover,
+.contactme-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(253, 111, 0, 0.4);
+}
+
+
+
+
+
+
+@media (min-width: 769px) {
+
+    .hamburger,
+    #menu-toggle {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: flex !important;
+        flex-direction: row;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        margin: 4vw 5vw 0;
+    }
+
+    .imageone {
+        width: 80%;
+        margin: 1em auto;
+    }
+
+    .skill-section {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 412px) {
+
+    /* Base layout adjustments */
+    body {
+        font-size: 14px;
+        overflow-x: hidden;
+        /* Prevent horizontal scrolling */
+    }
+
+    .header,
+    .navbar,
+    .main,
+    .test-box,
+    .contact,
+    .sevice-box,
+    .cards-projecr-data {
+        margin: 0;
+        padding: 0 16px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Make all images fluid */
+    img,
+    .imageone,
+    .imgg {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Adjust hero text size */
+    .ui {
+        font-size: 8vw;
+        line-height: 1.2;
+    }
+
+    /* Text containers full width */
+    .lorem,
+    .group,
+    .ranger,
+    .skill-section {
+        width: 100%;
+    }
+
+    /* Responsive skill slider */
+    .skill-section {
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 0;
+    }
+
+    /* Button fit width */
+    button,
+    .butten,
+    .contactme-button,
+    #download-cv,
+    #button-hireMe {
+        width: 100%;
+        max-width: 100%;
+        padding: 12px;
+    }
+
+    /* Navbar toggling */
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    /* Services and project cards stacking */
+    .sevice-box,
+    .abdullah {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .cards-projecr-data {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    /* Testimonials box width */
+    .test-box {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 16px 0;
+    }
+
+    /* Contact form fields */
+    .contaact {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .type {
+        width: 100%;
+    }
+
+    /* Footer icons */
+    .footer-cextion,
+    .socila-icons {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .testimonial {
+        flex: 1 1 100%;
+        padding: 15px;
+    }
+
+
+    .testimonial img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+[class*="card"],
+[class*="cards"],
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+[class*="card"]:hover,
+[class*="cards"]:hover,
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Generic button elements */
+button,
+[type="button"],
+.butten {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover,
+[type="button"]:hover,
+.butten:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(253, 111, 0, 0.4);
+}
+
+@media (max-width: 480px) {
+    .ui {
+        font-size: 8vw;
+    }
+
+    .navbar-right-side {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .type {
+        width: 90vw;
+    }
+
+    .lorem {
+        font-size: 14px;
+    }
+}
