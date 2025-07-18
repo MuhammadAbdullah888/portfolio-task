@@ -789,7 +789,7 @@ button:hover,
         padding: 16px 0;
     }
 
-    /* Contact form fields */
+
     .contaact {
         flex-direction: column;
         gap: 12px;
@@ -807,6 +807,102 @@ button:hover,
         align-items: center;
     }
 }
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px 20px;
+    }
+
+    .navbar-right-side {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .type {
+        width: 100% !important;
+        padding: 10px;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+    .contaact {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .ui {
+        font-size: 8vw;
+    }
+
+    .lorem {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .imageone,
+    .imgg {
+        width: 100%;
+        height: auto;
+    }
+
+    .cards-projecr-data {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .skill-section,
+    .group,
+    .ranger {
+        width: 100%;
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 0;
+    }
+
+    button,
+    .butten,
+    .contactme-button,
+    #download-cv,
+    #button-hireMe {
+        width: 100%;
+        max-width: 100%;
+        padding: 12px;
+    }
+
+    .sevice-box,
+    .abdullah,
+    .Ellipse,
+    .contaact,
+    .footer-cextion,
+    .socila-icons {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .test-box {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 16px 0;
+    }
+}
+
 
 
 
